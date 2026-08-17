@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#2E7D5B">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>معين — رفيقك اليومي</title>
+<title>مُعين — رفيقك اليومي</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="زاد">
@@ -2460,5 +2460,12 @@ loadAll().then(()=>{ updateStreakPill(); scheduleReminderNotifications(); });
 <script>
 window.addEventListener('load',function(){setTimeout(function(){var x=document.getElementById('moeenSplash');if(x){x.style.opacity='0';x.style.visibility='hidden';x.style.pointerEvents='none';}},3000);});
 </script>
+  <script>
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js');
+    });
+}
+  </script>
 </body>
 </html>
