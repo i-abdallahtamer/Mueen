@@ -4,7 +4,7 @@
   "description": "مُعين — رفيقك اليومي لحفظ القرآن،  وتنظيم حياتك وعاداتك لبناء حياة أفضل.",
   "start_url": "https://i-abdallahtamer.github.io/Mueen/",
   "display": "standalone",
-  "background_color": "#f7f3ea",
+  "background_color": "##2f6b4f",
   "theme_color": "#2f6b4f",
   "orientation": "portrait",
   "lang": "ar",
@@ -15,7 +15,7 @@
     "standalone"
   ],
   "categories": [
-    "development",
+    "education",
     "lifestyle",
     "productivity"
   ]
