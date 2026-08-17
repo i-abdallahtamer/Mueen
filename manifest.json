@@ -1,0 +1,22 @@
+{
+  "name": "مُعين",
+  "short_name": "مُعين",
+  "description": "مُعين — رفيقك اليومي لحفظ القرآن،  وتنظيم حياتك وعاداتك لبناء حياة أفضل.",
+  "start_url": "https://i-abdallahtamer.github.io/Mueen/",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#2f6b4f",
+  "orientation": "portrait",
+  "lang": "ar",
+  "dir": "rtl",
+  "id": "Mueen",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "categories": [
+    "development",
+    "lifestyle",
+    "productivity"
+  ]
+}
